@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.appbar{
+    background-color: black !important;
+    padding: 1rem 0;
+}
+
+.Secondarnavbar_followbutton{
+    transition: 0.4s all !important;
+
+}
+
+.Secondarnavbar_followbutton:hover{
+    background-color: white !important;
+    color: black;
+}
+
+.FooterContainer{
+    background-color: black;
+    padding: 3rem;
+}
+
+.footer_brand{
+    color: white;
+}
+
+.footer_right{
+    display: flex;
+    align-items: center;
+    height: 2.8rem;
+    justify-content: space-evenly;
+}
+
+.facebookIcon{
+    font-size: 4rem;
+}
+
+
+.Home_image{
+    background-image: url("../components/images/main.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.Home_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 28;
+}
+
+.BlogsSection{
+    margin-top: 3rem;
+}
+
+.BlogSection_image{
+    margin-bottom: 4rem;
+}
+
+.BlogSection_image img {
+    width: 100%;
+}
+
+.BlogSection_content{
+    padding: 10px 10px;
+    margin-left: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+.BlogSection_blog{
+    margin-top: 1rem;
+  
+}
+
+.BlogSection_blogcontent{
+    color: rgb(138, 138, 138);
+    line-height: 2rem;
+    font-family: "Roboto";
+    text-align: justify;
+}
+
+.BlogSection_button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.BlogSection_button button{
+    transition: 0.3s ease-in-out;
+    border: 1px solid black;
+}
+
+.BlogSection_button:hover button {
+        background-color: black;    
+        color: white;
+        border: 1px solid white;
+}
+
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+
